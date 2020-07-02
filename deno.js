@@ -1,5 +1,8 @@
-function a() {
-    console.log(44);
-}
+export const food = Deno.args[0];
 
-a();
+fetch;
+if (food === "love") {
+  console.log("Deno is born...");
+} else {
+  console.log("...This egg needs some love");
+}
